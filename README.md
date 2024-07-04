@@ -1,1022 +1,613 @@
-# interview-practice
+Sure! Here are 100 questions each for HTML and CSS, JavaScript, and React, along with easy-to-understand answers.
 
-Certainly! Here are 50 interview questions along with easy-to-understand answers for a front-end developer:
-
-### HTML Questions
+### HTML and CSS Questions
 
 1. **What is HTML?**
-   - HTML (HyperText Markup Language) is the standard language used to create and design web pages.
+   - HTML (HyperText Markup Language) is the standard language for creating web pages.
 
 2. **What are HTML tags?**
-   - HTML tags are the building blocks of HTML, used to define elements like headings, paragraphs, links, and more.
+   - Tags are used to create elements in an HTML document, e.g., `<p>`, `<div>`.
 
-3. **What is the purpose of the `<!DOCTYPE html>` declaration?**
-   - The `<!DOCTYPE html>` declaration defines the document type and version of HTML. It helps the browser render the page correctly.
+3. **What is the purpose of the `<head>` tag?**
+   - Contains metadata, title, and links to scripts and styles.
 
-4. **What are semantic HTML elements?**
-   - Semantic HTML elements clearly describe their meaning in a human- and machine-readable way (e.g., `<article>`, `<section>`, `<header>`).
+4. **What is the purpose of the `<body>` tag?**
+   - Contains the content of the HTML document.
 
-5. **What is the difference between block-level and inline elements?**
-   - Block-level elements start on a new line and take up the full width available (e.g., `<div>`, `<h1>`), while inline elements do not start on a new line and only take up as much width as necessary (e.g., `<span>`, `<a>`).
+5. **What are semantic HTML elements?**
+   - Elements that clearly describe their meaning, like `<article>`, `<header>`, `<footer>`.
 
-### CSS Questions
+6. **What is an HTML attribute?**
+   - Provides additional information about an element, e.g., `class`, `id`, `href`.
 
-6. **What is CSS?**
-   - CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of HTML documents, including layout, colors, and fonts.
+7. **How do you create a hyperlink in HTML?**
+   - Using the `<a>` tag: `<a href="url">Link text</a>`.
 
-7. **What are CSS selectors?**
-   - CSS selectors are patterns used to select and style HTML elements. Common selectors include element, class, and ID selectors.
+8. **How do you create an image in HTML?**
+   - Using the `<img>` tag: `<img src="image.jpg" alt="description">`.
 
-8. **What is the box model in CSS?**
-   - The box model describes the layout of elements, including content, padding, border, and margin.
+9. **What is the `<div>` tag used for?**
+   - To create a division or container in an HTML document.
 
-9. **What is the difference between `margin` and `padding`?**
-   - `Margin` is the space outside an element's border, while `padding` is the space inside the border, around the content.
+10. **What is the `<span>` tag used for?**
+    - To apply styles to inline elements.
 
-10. **How do you center an element horizontally in CSS?**
-    - To center a block element, use `margin: 0 auto;`. For inline elements, use `text-align: center;` on the parent container.
+11. **What is the difference between block and inline elements?**
+    - Block elements take up the full width, inline elements take up only as much width as necessary.
+
+12. **What is the purpose of the `<form>` tag?**
+    - To create a form for user input.
+
+13. **How do you create a text input in HTML?**
+    - Using the `<input>` tag: `<input type="text">`.
+
+14. **How do you create a submit button in HTML?**
+    - Using the `<button>` tag: `<button type="submit">Submit</button>`.
+
+15. **What is the `<label>` tag used for?**
+    - To define a label for an input element.
+
+16. **How do you create a dropdown list in HTML?**
+    - Using the `<select>` tag: `<select><option>Option 1</option></select>`.
+
+17. **What is the `<table>` tag used for?**
+    - To create a table in HTML.
+
+18. **How do you create a table row in HTML?**
+    - Using the `<tr>` tag: `<tr><td>Cell</td></tr>`.
+
+19. **What is the `<th>` tag used for?**
+    - To create a table header cell.
+
+20. **What is the purpose of the `<ul>` tag?**
+    - To create an unordered list.
+
+21. **What is the purpose of the `<ol>` tag?**
+    - To create an ordered list.
+
+22. **How do you create a list item in HTML?**
+    - Using the `<li>` tag: `<ul><li>Item</li></ul>`.
+
+23. **What is the `<iframe>` tag used for?**
+    - To embed another HTML document within the current document.
+
+24. **What is the `<meta>` tag used for?**
+    - To provide metadata about the HTML document.
+
+25. **How do you create a line break in HTML?**
+    - Using the `<br>` tag.
+
+26. **How do you create a horizontal line in HTML?**
+    - Using the `<hr>` tag.
+
+27. **What is the `<em>` tag used for?**
+    - To emphasize text, usually rendered as italic.
+
+28. **What is the `<strong>` tag used for?**
+    - To indicate strong importance, usually rendered as bold.
+
+29. **What is the purpose of the `<title>` tag?**
+    - To define the title of the HTML document, shown in the browser tab.
+
+30. **How do you include CSS in an HTML document?**
+    - Using the `<link>` tag, `<style>` tag, or inline styles.
+
+31. **What is CSS?**
+    - CSS (Cascading Style Sheets) is used to style and layout web pages.
+
+32. **What is an external CSS file?**
+    - A separate file containing CSS rules, linked to an HTML document using `<link>`.
+
+33. **What is the purpose of the `<style>` tag?**
+    - To include internal CSS within an HTML document.
+
+34. **What are inline styles?**
+    - CSS rules applied directly within an HTML element using the `style` attribute.
+
+35. **What is the CSS box model?**
+    - It includes margins, borders, padding, and the actual content.
+
+36. **What are CSS selectors?**
+    - Patterns used to select elements to style, e.g., `.class`, `#id`, `element`.
+
+37. **What is the difference between class and ID selectors?**
+    - Classes (`.classname`) can be used multiple times, IDs (`#idname`) should be unique.
+
+38. **What are CSS pseudo-classes?**
+    - Selectors that target elements in a specific state, e.g., `:hover`, `:active`.
+
+39. **What are CSS pseudo-elements?**
+    - Selectors that style specific parts of an element, e.g., `::before`, `::after`.
+
+40. **What is the purpose of the `margin` property in CSS?**
+    - To create space around elements outside their borders.
+
+41. **What is the purpose of the `padding` property in CSS?**
+    - To create space inside elements within their borders.
+
+42. **What is the difference between `margin` and `padding`?**
+    - Margin is outside the border, padding is inside the border.
+
+43. **What is the `border` property in CSS?**
+    - Defines the border around an element.
+
+44. **What is the `display` property in CSS?**
+    - Controls the display type of an element, e.g., `block`, `inline`, `flex`.
+
+45. **What is the `position` property in CSS?**
+    - Defines how an element is positioned, e.g., `static`, `relative`, `absolute`, `fixed`, `sticky`.
+
+46. **What is the `float` property in CSS?**
+    - Allows elements to float to the left or right of their container.
+
+47. **What is the `clear` property in CSS?**
+    - Controls the behavior of floating elements, e.g., `clear: both`.
+
+48. **What are media queries in CSS?**
+    - Allow you to apply styles based on the device's characteristics, like width or orientation.
+
+49. **What is responsive web design?**
+    - A design approach that makes web pages look good on all devices.
+
+50. **What is a CSS framework?**
+    - A pre-prepared library that helps streamline the process of designing web pages, e.g., Bootstrap.
+
+51. **What is the `z-index` property in CSS?**
+    - Controls the stacking order of elements.
+
+52. **What is the `overflow` property in CSS?**
+    - Specifies how to handle content that overflows an element's box.
+
+53. **What is the `opacity` property in CSS?**
+    - Sets the transparency level of an element.
+
+54. **What is the `background` property in CSS?**
+    - A shorthand property for setting background properties like color, image, position, etc.
+
+55. **What is the `box-shadow` property in CSS?**
+    - Adds shadow effects to an element's box.
+
+56. **What is Flexbox in CSS?**
+    - A layout model that allows you to design complex layouts easily with a flexible layout structure.
+
+57. **How do you center an element using Flexbox?**
+    - Using `display: flex; justify-content: center; align-items: center;`.
+
+58. **What is CSS Grid?**
+    - A layout system for creating two-dimensional grid-based layouts.
+
+59. **What is the difference between Flexbox and Grid?**
+    - Flexbox is one-dimensional (row or column), Grid is two-dimensional (rows and columns).
+
+60. **What are CSS transitions?**
+    - Allow you to change property values smoothly over a given duration.
+
+61. **What are CSS animations?**
+    - Allow you to animate transitions between CSS styles using keyframes.
+
+62. **What is the `@keyframes` rule in CSS?**
+    - Used to define the animation sequence in CSS animations.
+
+63. **What is the `transform` property in CSS?**
+    - Applies transformations like rotate, scale, skew, and translate to elements.
+
+64. **What is the `position: relative;` property in CSS?**
+    - Positions an element relative to its normal position.
+
+65. **What is the `position: absolute;` property in CSS?**
+    - Positions an element relative to its nearest positioned ancestor.
+
+66. **What is the `position: fixed;` property in CSS?**
+    - Positions an element relative to the browser window.
+
+67. **What is the `position: sticky;` property in CSS?**
+    - A hybrid of relative and fixed positioning, where an element toggles between the two based on scroll position.
+
+68. **What is the `visibility` property in CSS?**
+    - Controls the visibility of an element, e.g., `visible`, `hidden`.
+
+69. **What is the `cursor` property in CSS?**
+    - Specifies the type of cursor to be displayed when pointing over an element.
+
+70. **What is the `:nth
+
+-child` pseudo-class in CSS?**
+    - Selects elements based on their position in a group of siblings.
+
+71. **What is the `calc()` function in CSS?**
+    - Allows you to perform calculations to determine CSS property values.
+
+72. **What is the `object-fit` property in CSS?**
+    - Specifies how an image or video should be resized to fit its container.
+
+73. **What is the `object-position` property in CSS?**
+    - Specifies the alignment of the replaced element inside its box.
+
+74. **What is the `:root` pseudo-class in CSS?**
+    - Represents the root element of the document, useful for defining global variables.
+
+75. **What is the `var()` function in CSS?**
+    - Used to insert the value of a custom property (variable).
+
+76. **What is the `filter` property in CSS?**
+    - Applies graphical effects like blur or color shifts to an element.
+
+77. **What is the `clip-path` property in CSS?**
+    - Creates a clipping region that defines what part of an element should be displayed.
+
+78. **What is the `pointer-events` property in CSS?**
+    - Controls whether an element can be the target of mouse events.
+
+79. **What is the `scroll-behavior` property in CSS?**
+    - Specifies the scrolling behavior for a scrolling box when scrolling is triggered by navigation or CSSOM scrolling APIs.
+
+80. **What is the `content` property in CSS?**
+    - Used with `::before` and `::after` pseudo-elements to insert generated content.
+
+81. **What is the `resize` property in CSS?**
+    - Specifies whether an element is resizable by the user and in which direction.
+
+82. **What is the `backdrop-filter` property in CSS?**
+    - Applies graphical effects to the area behind an element.
+
+83. **What is the `word-wrap` property in CSS?**
+    - Allows long words to be broken and wrap onto the next line.
+
+84. **What is the `white-space` property in CSS?**
+    - Controls how whitespace inside an element is handled.
+
+85. **What is the `writing-mode` property in CSS?**
+    - Specifies whether lines of text are laid out horizontally or vertically.
+
+86. **What is the `text-overflow` property in CSS?**
+    - Specifies how overflowed content that is not displayed is signaled to the user.
+
+87. **What is the `line-height` property in CSS?**
+    - Sets the height of a line box.
+
+88. **What is the `letter-spacing` property in CSS?**
+    - Sets the spacing between characters in a text.
+
+89. **What is the `word-spacing` property in CSS?**
+    - Sets the spacing between words in a text.
+
+90. **What is the `text-transform` property in CSS?**
+    - Controls the capitalization of text.
+
+91. **What is the `text-shadow` property in CSS?**
+    - Adds shadows to text.
+
+92. **What is the `text-align` property in CSS?**
+    - Sets the horizontal alignment of text.
+
+93. **What is the `vertical-align` property in CSS?**
+    - Sets the vertical alignment of an inline or table-cell box.
+
+94. **What is the `list-style` property in CSS?**
+    - Sets the style of list items, including `list-style-type`, `list-style-position`, and `list-style-image`.
+
+95. **What is the `float` property in CSS?**
+    - Specifies whether an element should float to the left, right, or not at all.
+
+96. **What is the `clear` property in CSS?**
+    - Specifies on which sides of an element floating elements are not allowed to float.
+
+97. **What is the `max-width` property in CSS?**
+    - Sets the maximum width of an element.
+
+98. **What is the `min-width` property in CSS?**
+    - Sets the minimum width of an element.
+
+99. **What is the `max-height` property in CSS?**
+    - Sets the maximum height of an element.
+
+100. **What is the `min-height` property in CSS?**
+    - Sets the minimum height of an element.
 
 ### JavaScript Questions
 
-11. **What is JavaScript?**
-    - JavaScript is a programming language used to create dynamic and interactive content on web pages.
-
-12. **What are variables in JavaScript?**
-    - Variables are containers for storing data values. They are declared using `var`, `let`, or `const`.
-
-13. **What is the difference between `var`, `let`, and `const`?**
-    - `var` is function-scoped, while `let` and `const` are block-scoped. `const` is used for variables that should not be reassigned.
-
-14. **What are JavaScript closures?**
-    - Closures are functions that have access to their own scope, the outer function’s scope, and the global scope. They are created whenever a function is created inside another function.
-
-15. **What is the event loop in JavaScript?**
-    - The event loop is a mechanism that handles the execution of asynchronous code by continuously checking the message queue and executing the tasks.
-
-### React Questions
-
-16. **What is React?**
-    - React is a JavaScript library for building user interfaces, particularly single-page applications, using a component-based architecture.
-
-17. **What is a component in React?**
-    - A component is an independent, reusable piece of UI in a React application, defined either as a function or a class.
-
-18. **What is the difference between state and props in React?**
-    - State is a local data storage that is specific to a component and can change over time, while props are read-only inputs passed from parent to child components.
-
-19. **What is JSX?**
-    - JSX is a syntax extension for JavaScript that allows you to write HTML directly within JavaScript, making it easier to create React elements.
-
-20. **What are hooks in React?**
-    - Hooks are functions that let you use state and other React features in functional components. Common hooks include `useState`, `useEffect`, and `useContext`.
-
-### Responsive Design Questions
-
-21. **What is responsive design?**
-    - Responsive design is an approach to web design that makes web pages render well on various devices and window or screen sizes.
-
-22. **What are media queries in CSS?**
-    - Media queries are a feature of CSS that allow you to apply styles based on the characteristics of the device, such as screen width, height, and orientation.
-
-23. **What is the `viewport` meta tag used for?**
-    - The `viewport` meta tag controls the layout of the web page on mobile browsers by setting the width and scaling of the viewport.
-
-24. **What is Flexbox in CSS?**
-    - Flexbox is a layout model that allows you to design complex layouts with ease. It distributes space along a container's main axis and cross axis.
-
-25. **What is CSS Grid?**
-    - CSS Grid is a layout system for creating two-dimensional grid-based layouts with rows and columns.
-
-### Performance Optimization Questions
-
-26. **What is lazy loading?**
-    - Lazy loading is a design pattern that delays the loading of resources until they are needed, improving initial page load times.
-
-27. **What are web workers?**
-    - Web workers are a way to run scripts in background threads, allowing long-running tasks to be performed without blocking the main thread.
-
-28. **What is the difference between `localStorage` and `sessionStorage`?**
-    - `localStorage` stores data with no expiration date, while `sessionStorage` stores data for the duration of the page session.
-
-29. **What is a content delivery network (CDN)?**
-    - A CDN is a network of servers distributed geographically to deliver content more quickly to users based on their location.
-
-30. **What is the purpose of minifying CSS and JavaScript files?**
-    - Minifying removes unnecessary characters from CSS and JavaScript files, reducing their size and improving load times.
-
-### Accessibility Questions
-
-31. **What is web accessibility?**
-    - Web accessibility ensures that websites are usable by people with disabilities, including those who rely on assistive technologies.
-
-32. **What are ARIA roles?**
-    - ARIA (Accessible Rich Internet Applications) roles provide additional information to assistive technologies about the purpose and behavior of elements.
-
-33. **What is the purpose of the `alt` attribute in the `<img>` tag?**
-    - The `alt` attribute provides alternative text for an image, which is read by screen readers and displayed if the image fails to load.
-
-34. **What is keyboard navigation?**
-    - Keyboard navigation allows users to navigate and interact with a website using only a keyboard, essential for users with mobility impairments.
-
-35. **What is the `tabindex` attribute?**
-    - The `tabindex` attribute specifies the tab order of an element when navigating using the keyboard.
-
-### Security Questions
-
-36. **What is cross-site scripting (XSS)?**
-    - XSS is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.
-
-37. **What is cross-site request forgery (CSRF)?**
-    - CSRF is an attack that forces an authenticated user to perform unwanted actions on a web application in which they are authenticated.
-
-38. **What is Content Security Policy (CSP)?**
-    - CSP is a security feature that helps prevent XSS attacks by specifying which sources of content are allowed to be loaded on a web page.
-
-39. **What is the Same-Origin Policy?**
-    - The Same-Origin Policy is a security measure that restricts how documents and scripts loaded from one origin can interact with resources from another origin.
-
-40. **What is HTTPS?**
-    - HTTPS (HyperText Transfer Protocol Secure) is a protocol for secure communication over a computer network, ensuring data integrity and confidentiality.
-
-### Miscellaneous Questions
-
-41. **What is the DOM?**
-    - The DOM (Document Object Model) is an interface that allows programs to manipulate the structure, style, and content of web documents.
-
-42. **What are the different types of positioning in CSS?**
-    - Types of positioning include `static`, `relative`, `absolute`, `fixed`, and `sticky`.
-
-43. **What is the `fetch` API?**
-    - The `fetch` API is a modern interface for making HTTP requests, returning promises that resolve to the response.
-
-44. **What are web components?**
-    - Web components are a set of web platform APIs that allow you to create reusable custom elements with encapsulated functionality and styling.
-
-45. **What is progressive enhancement?**
-    - Progressive enhancement is a strategy for web design that emphasizes core web content first, then adds more advanced features for browsers that support them.
-
-46. **What is a polyfill?**
-    - A polyfill is a piece of code used to provide modern functionality on older browsers that do not support it natively.
-
-47. **What is the purpose of version control?**
-    - Version control is a system for tracking changes to files over time, allowing multiple developers to collaborate and manage changes.
-
-48. **What is npm?**
-    - npm (Node Package Manager) is a package manager for JavaScript, allowing you to install, share, and manage dependencies for your projects.
-
-49. **What is the `defer` attribute in the `<script>` tag?**
-    - The `defer` attribute tells the browser to load the script in the background and execute it after the HTML has been parsed.
-
-50. **What is server-side rendering (SSR)?**
-    - SSR is a technique where HTML is generated on the server and sent to the client, improving performance and SEO.
-
-These questions and answers cover a wide range of front-end development concepts and should
-
-
-Sure! Here are 50 interview questions along with easy-to-understand answers for HTML and CSS:
-
-### HTML Questions
-
-1. **What is HTML?**
-   - HTML (HyperText Markup Language) is the standard language used to create and design web pages.
-
-2. **What are HTML tags?**
-   - HTML tags are the building blocks of HTML, used to define elements like headings, paragraphs, links, and more.
-
-3. **What is the purpose of the `<!DOCTYPE html>` declaration?**
-   - The `<!DOCTYPE html>` declaration defines the document type and version of HTML. It helps the browser render the page correctly.
-
-4. **What are HTML attributes?**
-   - Attributes provide additional information about HTML elements. They are placed inside the opening tag and have a name and value.
-
-5. **What is the difference between block-level and inline elements?**
-   - Block-level elements start on a new line and take up the full width available (e.g., `<div>`, `<h1>`), while inline elements do not start on a new line and only take up as much width as necessary (e.g., `<span>`, `<a>`).
-
-6. **What are semantic HTML elements?**
-   - Semantic HTML elements clearly describe their meaning in a human- and machine-readable way (e.g., `<article>`, `<section>`, `<header>`).
-
-7. **What is the purpose of the `<head>` tag?**
-   - The `<head>` tag contains meta-information about the document, such as the title, character set, and links to stylesheets.
-
-8. **What is the `<title>` tag used for?**
-   - The `<title>` tag sets the title of the web page, which appears in the browser tab and search engine results.
-
-9. **What is the `<meta>` tag used for?**
-   - The `<meta>` tag provides metadata about the HTML document, such as the character set, author, description, and keywords.
-
-10. **What is the difference between `<ul>` and `<ol>`?**
-    - `<ul>` defines an unordered list with bullet points, while `<ol>` defines an ordered list with numbered items.
-
-11. **What are the different types of input elements in HTML forms?**
-    - Types of input elements include text, password, email, number, checkbox, radio, file, submit, and more.
-
-12. **What is the purpose of the `<label>` tag in HTML forms?**
-    - The `<label>` tag associates a text label with a specific form input element, improving accessibility and usability.
-
-13. **What is an HTML entity?**
-    - HTML entities are special characters reserved in HTML, such as `&lt;` for `<` and `&amp;` for `&`.
-
-14. **What is the difference between `<div>` and `<span>`?**
-    - `<div>` is a block-level element used for layout and grouping, while `<span>` is an inline element used for styling small pieces of text.
-
-15. **What is the purpose of the `<iframe>` tag?**
-    - The `<iframe>` tag is used to embed another HTML document within the current document.
-
-16. **What is the difference between the `<strong>` and `<b>` tags?**
-    - `<strong>` indicates that the enclosed text is of strong importance, while `<b>` simply makes the text bold without implying importance.
-
-17. **What is the `<a>` tag used for?**
-    - The `<a>` tag is used to create hyperlinks, allowing users to navigate to other web pages or resources.
-
-18. **What is the `<img>` tag used for?**
-    - The `<img>` tag is used to embed images in an HTML document.
-
-19. **What is the `<table>` tag used for?**
-    - The `<table>` tag is used to create tables, with nested `<tr>` for rows and `<td>` for cells.
-
-20. **What is the purpose of the `<form>` tag?**
-    - The `<form>` tag is used to create HTML forms for user input, such as text fields, checkboxes, and submit buttons.
-
-### CSS Questions
-
-21. **What is CSS?**
-    - CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of HTML documents, including layout, colors, and fonts.
-
-22. **What are CSS selectors?**
-    - CSS selectors are patterns used to select and style HTML elements. Common selectors include element, class, and ID selectors.
-
-23. **What is the difference between class and ID selectors in CSS?**
-    - Class selectors (`.className`) can be used on multiple elements, while ID selectors (`#idName`) are unique and can only be used on one element per page.
-
-24. **What is the box model in CSS?**
-    - The box model describes the layout of elements, including content, padding, border, and margin.
-
-25. **What is the difference between `margin` and `padding`?**
-    - `Margin` is the space outside an element's border, while `padding` is the space inside the border, around the content.
-
-26. **How do you center an element horizontally in CSS?**
-    - To center a block element, use `margin: 0 auto;`. For inline elements, use `text-align: center;` on the parent container.
-
-27. **What are CSS pseudo-classes?**
-    - Pseudo-classes are special states of elements that can be styled using selectors like `:hover`, `:active`, and `:focus`.
-
-28. **What are CSS pseudo-elements?**
-    - Pseudo-elements are used to style specific parts of elements, such as `::before` and `::after` for inserting content before or after an element.
-
-29. **What is the purpose of the `display` property in CSS?**
-    - The `display` property defines how an element is displayed. Common values include `block`, `inline`, `flex`, and `none`.
-
-30. **What is the difference between `position: absolute` and `position: relative`?**
-    - `position: absolute` positions an element relative to its nearest positioned ancestor, while `position: relative` positions an element relative to its normal position.
-
-31. **What is a CSS flexbox?**
-    - Flexbox is a layout model that allows you to design complex layouts with ease. It distributes space along a container's main axis and cross axis.
-
-32. **What is CSS Grid?**
-    - CSS Grid is a layout system for creating two-dimensional grid-based layouts with rows and columns.
-
-33. **What is the difference between `inline` and `inline-block`?**
-    - `inline` elements do not respect width and height properties, while `inline-block` elements do, allowing them to be sized while still flowing inline.
-
-34. **How do you apply CSS to a specific element using its ID?**
-    - Use the ID selector with a hash symbol followed by the ID name, like `#elementID { ... }`.
-
-35. **How do you create a responsive design in CSS?**
-    - Use media queries to apply different styles based on screen size, orientation, and other factors.
-
-36. **What is the purpose of the `z-index` property?**
-    - The `z-index` property controls the stacking order of positioned elements, determining which elements appear on top.
-
-37. **What are CSS transitions?**
-    - CSS transitions provide a way to animate changes to CSS properties over a specified duration.
-
-38. **What are CSS animations?**
-    - CSS animations allow you to animate properties of an element using keyframes, defining multiple steps of the animation.
-
-39. **What is the `float` property used for?**
-    - The `float` property is used to position an element to the left or right, allowing text and inline elements to wrap around it.
-
-40. **What is the `clear` property used for?**
-    - The `clear` property is used to control the behavior of floating elements, preventing them from affecting the layout of subsequent elements.
-
-41. **What is a CSS preprocessor?**
-    - A CSS preprocessor is a scripting language that extends CSS with features like variables, nesting, and functions. Common preprocessors include Sass, Less, and Stylus.
-
-42. **How do you use variables in CSS?**
-    - In modern CSS, variables (custom properties) are defined with `--variableName` and used with `var(--variableName)`.
-
-43. **What is the `opacity` property used for?**
-    - The `opacity` property sets the transparency level of an element, with values ranging from 0 (completely transparent) to 1 (completely opaque).
-
-44. **How do you create a gradient background in CSS?**
-    - Use the `background-image` property with `linear-gradient` or `radial-gradient` functions to create gradient backgrounds.
-
-45. **What is the `box-shadow` property used for?**
-    - The `box-shadow` property adds shadow effects to an element's frame.
-
-46. **What is the `text-shadow` property used for?**
-    - The `text-shadow` property adds shadow effects to text.
-
-47. **How do you create rounded corners in CSS?**
-    - Use the `border-radius` property to create rounded corners on elements.
-
-48. **What is the `overflow` property used for?**
-    - The `overflow` property controls what happens when content overflows an element's box, with values like `visible`, `hidden`, `scroll`, and `auto`.
-
-49. **How do you add custom fonts to a web page using CSS?**
-    - Use the `@font-face` rule to define custom fonts and the `font-family` property to apply them to elements.
-
-50. **What is the `calc()`
-
- function used for in CSS?**
-    - The `calc()` function allows you to perform calculations to determine CSS property values, such as widths and margins.
-
-These questions and answers should help you prepare for an interview focused on HTML and CSS.
-
-
-Certainly! Here are 50 JavaScript interview questions along with easy-to-understand answers:
-
-### Basic Questions
-
 1. **What is JavaScript?**
-   - JavaScript is a programming language used to create dynamic and interactive content on web pages.
+   - JavaScript is a programming language used to create dynamic and interactive web content.
 
-2. **What are variables in JavaScript?**
-   - Variables are containers for storing data values. They are declared using `var`, `let`, or `const`.
+2. **How do you include JavaScript in an HTML document?**
+   - Using the `<script>` tag.
 
-3. **What is the difference between `var`, `let`, and `const`?**
-   - `var` is function-scoped, while `let` and `const` are block-scoped. `const` is used for variables that should not be reassigned.
+3. **What are the different data types in JavaScript?**
+   - Types include string, number, boolean, object, undefined, and null.
 
-4. **What are data types in JavaScript?**
-   - JavaScript has several data types, including `string`, `number`, `boolean`, `object`, `null`, `undefined`, and `symbol`.
+4. **How do you declare a variable in JavaScript?**
+   - Using `var`, `let`, or `const`.
 
-5. **What are functions in JavaScript?**
-   - Functions are blocks of code designed to perform particular tasks. They are defined using the `function` keyword or as arrow functions.
+5. **What is the difference between `var`, `let`, and `const`?**
+   - `var` is function-scoped, `let` and `const` are block-scoped. `const` can't be reassigned.
 
-6. **What is the difference between `==` and `===`?**
-   - `==` compares values for equality with type coercion, while `===` compares values for equality without type coercion (strict equality).
+6. **What is a function in JavaScript?**
+   - A block of code designed to perform a particular task.
 
-7. **What is an array in JavaScript?**
-   - An array is a special variable that can hold multiple values in a single variable, defined using square brackets `[]`.
+7. **How do you define a function in JavaScript?**
+   - Using the `function` keyword: `function myFunction() {}`.
 
-8. **What is an object in JavaScript?**
-   - An object is a collection of properties, where each property is a key-value pair. Objects are defined using curly braces `{}`.
+8. **What is an arrow function in JavaScript?**
+   - A shorter syntax for writing functions: `const myFunction = () => {}`.
 
-9. **What is the purpose of the `this` keyword?**
-   - `this` refers to the current context or object. Its value depends on how a function is called.
+9. **What is an object in JavaScript?**
+   - A collection of properties and methods.
 
-10. **What are arrow functions?**
-    - Arrow functions are a shorter syntax for writing functions, defined using the `=>` notation. They do not have their own `this` context.
+10. **How do you create an object in JavaScript?**
+    - Using object literals: `const myObject = { key: 'value' }`.
 
-### Intermediate Questions
+11. **What is an array in JavaScript?**
+    - A list-like object used to store multiple values.
 
-11. **What are JavaScript closures?**
-    - Closures are functions that have access to their own scope, the outer function’s scope, and the global scope. They are created whenever a function is created inside another function.
+12. **How do you create an array in JavaScript?**
+    - Using array literals: `const myArray = [1, 2, 3]`.
 
-12. **What is the event loop in JavaScript?**
-    - The event loop is a mechanism that handles the execution of asynchronous code by continuously checking the message queue and executing the tasks.
+13. **What are some common array methods in JavaScript?**
+    - Methods include `push()`, `pop()`, `shift()`, `unshift()`, `forEach()`, `map()`.
 
-13. **What is `hoisting` in JavaScript?**
-    - Hoisting is JavaScript's behavior of moving declarations (variables and functions) to the top of their containing scope before code execution.
+14. **What is the DOM?**
+    - The Document Object Model is an API for manipulating HTML and XML documents.
 
-14. **What are promises in JavaScript?**
-    - Promises are objects representing the eventual completion or failure of an asynchronous operation. They have `then` and `catch` methods to handle the results.
+15. **How do you access HTML elements using JavaScript?**
+    - Using methods like `getElementById()`, `querySelector()`, `getElementsByClassName()`.
 
-15. **What is `async/await`?**
-    - `async/await` is syntax for writing asynchronous code in a more synchronous-looking way. `async` functions return promises, and `await` pauses the execution until the promise resolves.
+16. **What is event handling in JavaScript?**
+    - The process of responding to user interactions like clicks or key presses.
 
-16. **What is the difference between `null` and `undefined`?**
-    - `null` is an assigned value representing no value, while `undefined` means a variable has been declared but not assigned a value.
+17. **What is the difference between `==` and `===` in JavaScript?**
+    - `==` checks for value equality, `===` checks for both value and type equality.
 
-17. **What is the `spread` operator?**
-    - The spread operator `...` allows an iterable (like an array) to be expanded in places where zero or more arguments or elements are expected.
+18. **What is a JavaScript promise?**
+    - A promise represents a value that may be available now, or in the future, or never.
 
-18. **What is destructuring in JavaScript?**
-    - Destructuring is a syntax for extracting values from arrays or properties from objects into distinct variables.
+19. **How do you handle asynchronous operations in JavaScript?**
+    - Using callbacks, promises, or async/await.
 
-19. **What is the difference between `call`, `apply`, and `bind`?**
-    - `call` and `apply` invoke a function with a specific `this` context, where `call` takes arguments individually and `apply` takes arguments as an array. `bind` returns a new function with a specific `this` context.
+20. **What is the purpose of the `async` and `await` keywords?**
+    - `async` makes a function return a promise, `await` pauses the function until the promise settles.
 
-20. **What is `NaN` in JavaScript?**
-    - `NaN` stands for "Not-a-Number" and is a value representing a computational error resulting from an operation that doesn't yield a valid number.
+21. **What is a callback function?**
+    - A function passed into another function to be executed later.
 
-### Advanced Questions
+22. **What is JSON and how is it used?**
+    - JSON (JavaScript Object Notation) is a format for storing and exchanging data. Used for server-client communication.
 
-21. **What is the purpose of the `map` method in arrays?**
-    - The `map` method creates a new array by applying a function to each element of the original array.
+23. **How do you parse a JSON string in JavaScript?**
+    - Using `JSON.parse()`.
 
-22. **What is the purpose of the `filter` method in arrays?**
-    - The `filter` method creates a new array with all elements that pass a test implemented by the provided function.
+24. **What is localStorage in JavaScript?**
+    - A web storage API that allows you to store data in the browser with no expiration time.
 
-23. **What is the `reduce` method in arrays?**
-    - The `reduce` method executes a reducer function on each element of the array, resulting in a single output value.
+25. **What is sessionStorage in JavaScript?**
+    - A web storage API that allows you to store data for the duration of the page session.
 
-24. **What is the difference between `forEach` and `map`?**
-    - `forEach` executes a provided function once for each array element but does not return a new array. `map` executes a provided function once for each array element and returns a new array.
+26. **How do you manipulate the DOM using JavaScript?**
+    - Using methods like `appendChild()`, `removeChild()`, `createElement()`, `innerHTML`.
 
-25. **What are JavaScript modules?**
-    - JavaScript modules allow code to be organized into reusable pieces using `export` and `import` statements.
+27. **What is jQuery?**
+    - A JavaScript library that simplifies HTML document traversing, event handling, and animation.
 
-26. **What is the purpose of `try...catch`?**
-    - `try...catch` is used to handle errors by running code in the `try` block and handling any errors in the `catch` block.
+28. **How do you include jQuery in an HTML document?**
+    - By adding the jQuery `<script>` tag in the HTML file.
 
-27. **What is the `prototype` property in JavaScript?**
-    - The `prototype` property allows you to add properties and methods to constructor functions, which can then be inherited by all instances of that constructor.
+29. **What are the benefits of using jQuery?**
+    - Simplifies DOM manipulation, event handling, and provides cross-browser compatibility.
 
-28. **What is the difference between `Object.create` and a constructor function?**
-    - `Object.create` creates a new object with the specified prototype object and properties, while a constructor function creates objects using the `new` keyword.
+30. **What is AJAX?**
+    - AJAX (Asynchronous JavaScript and XML) allows web pages to be updated asynchronously by exchanging data with a web server.
 
-29. **What is the `fetch` API?**
-    - The `fetch` API is a modern interface for making HTTP requests, returning promises that resolve to the response.
+31. **How do you make an AJAX request in JavaScript?**
+    - Using the `XMLHttpRequest` object or the `fetch` API.
 
-30. **What is the purpose of `setTimeout` and `setInterval`?**
-    - `setTimeout` executes a function after a specified delay, while `setInterval` repeatedly executes a function at specified intervals.
+32. **What is the `fetch` API in JavaScript?**
+    - A modern interface for making HTTP requests.
 
-### Expert Questions
+33. **What is the difference between `null` and `undefined` in JavaScript?**
+    - `null` is an assigned value representing no value, `undefined` means a variable has been declared but not assigned a value.
 
-31. **What is the difference between `==` and `===`?**
-    - `==` checks for equality with type coercion, while `===` checks for strict equality without type coercion.
+34. **What is the `typeof` operator in JavaScript?**
+    - Returns the data type of a variable or expression.
 
-32. **What are generators in JavaScript?**
-    - Generators are functions that can be paused and resumed, defined using the `function*` syntax. They yield multiple values over time using the `yield` keyword.
+35. **What is the `instanceof` operator in JavaScript?**
+    - Checks if an object is an instance of a specific class or constructor function.
 
-33. **What is `currying` in JavaScript?**
-    - Currying is a technique of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
+36. **What is hoisting in JavaScript?**
+    - The process where variable and function declarations are moved to the top of their scope before code execution.
 
-34. **What is the difference between `localStorage` and `sessionStorage`?**
-    - `localStorage` stores data with no expiration date, while `sessionStorage` stores data for the duration of the page session.
+37. **What are closures in JavaScript?**
+    -
 
-35. **What is the `event delegation`?**
-    - Event delegation is a technique of attaching a single event listener to a parent element to handle events for its child elements.
+ Functions that remember their lexical scope even when the function is executed outside that scope.
 
-36. **What is the difference between synchronous and asynchronous code?**
-    - Synchronous code is executed sequentially, blocking the execution of subsequent code. Asynchronous code allows other operations to continue before completing.
+38. **What are the different types of loops in JavaScript?**
+    - `for`, `while`, `do...while`, `for...in`, `for...of`.
 
-37. **What is the `event loop`?**
-    - The event loop is a mechanism that allows JavaScript to perform non-blocking operations by offloading tasks to the event queue.
+39. **What is the difference between `for...in` and `for...of` loops?**
+    - `for...in` iterates over object properties, `for...of` iterates over iterable objects like arrays.
 
-38. **What is a `Promise.all`?**
-    - `Promise.all` takes an array of promises and returns a single promise that resolves when all of the promises in the array have resolved.
+40. **What is the `this` keyword in JavaScript?**
+    - Refers to the object it belongs to.
 
-39. **What is the `new` keyword used for in JavaScript?**
-    - The `new` keyword is used to create an instance of a user-defined object type or a built-in object type that has a constructor function.
+41. **What are JavaScript prototypes?**
+    - Mechanism by which JavaScript objects inherit features from one another.
 
-40. **What are `template literals`?**
-    - Template literals are string literals allowing embedded expressions, multi-line strings, and string interpolation using backticks `` ` ` ``, `${}`.
+42. **What is the `new` keyword in JavaScript?**
+    - Used to create an instance of an object from a constructor function.
 
-### Miscellaneous Questions
+43. **What is the difference between `call()` and `apply()` methods in JavaScript?**
+    - `call()` invokes a function with a given `this` value and arguments provided individually. `apply()` does so with arguments provided as an array.
 
-41. **What is `strict mode` in JavaScript?**
-    - `strict mode` is a way to opt into a restricted variant of JavaScript, making it easier to write secure code by catching common coding errors.
+44. **What is the `bind()` method in JavaScript?**
+    - Creates a new function that, when called, has its `this` keyword set to the provided value.
 
-42. **What is `debouncing` in JavaScript?**
-    - Debouncing is a technique for limiting the rate at which a function executes. It ensures that a function is only called once within a specified time after the last call.
+45. **What is an IIFE in JavaScript?**
+    - An Immediately Invoked Function Expression is a function that runs as soon as it is defined.
 
-43. **What is `throttling` in JavaScript?**
-    - Throttling is a technique for limiting the rate at which a function executes by ensuring it is only called at most once in a specified time period.
+46. **What is a JavaScript module?**
+    - A file containing code that is importable and exportable to other files.
 
-44. **What is the `typeof` operator?**
-    - The `typeof` operator returns a string indicating the type of a variable.
+47. **What is the `import` and `export` syntax in JavaScript?**
+    - Used to include functions, objects, or primitives from one module to another.
 
-45. **What is `nullish coalescing`?**
-    - The nullish coalescing operator (`??`) provides a way to fall back to a default value when dealing with `null` or `undefined`.
+48. **What is a JavaScript class?**
+    - A blueprint for creating objects with predefined properties and methods.
 
-46. **What is the `optional chaining` operator?**
-    - The optional chaining operator (`?.`) allows you to access properties of an object that may be `null` or `undefined` without causing an error.
+49. **How do you define a class in JavaScript?**
+    - Using the `class` keyword: `class MyClass {}`.
 
-47. **What are `ES6 classes`?**
-    - ES6 classes are syntactic
+50. **What is the `constructor` method in JavaScript?**
+    - A special method for creating and initializing objects created with a `class`.
 
- sugar over JavaScript's existing prototype-based inheritance, providing a cleaner and more concise syntax for creating objects and dealing with inheritance.
+51. **What is the difference between primitive and reference types in JavaScript?**
+    - Primitives are immutable data types (e.g., string, number), references point to objects.
 
-48. **What is `Object.freeze`?**
-    - `Object.freeze` prevents modification to an object, making it immutable.
+52. **What is a template literal in JavaScript?**
+    - String literals allowing embedded expressions: `` `Hello, ${name}!` ``.
 
-49. **What is a `Proxy` object in JavaScript?**
-    - A `Proxy` object allows you to create a custom behavior for fundamental operations (e.g., property lookup, assignment, enumeration, function invocation).
+53. **What is destructuring in JavaScript?**
+    - A syntax for extracting values from arrays or properties from objects into distinct variables.
 
-50. **What is `Symbol` in JavaScript?**
-    - `Symbol` is a primitive data type that represents a unique and immutable value, often used as unique property keys.
+54. **What are default parameters in JavaScript?**
+    - Allows you to initialize function parameters with default values.
 
-These questions and answers cover a wide range of JavaScript concepts and should help you prepare for an interview focused on JavaScript.
+55. **What is the `spread` operator in JavaScript?**
+    - Allows an iterable to be expanded in places where multiple elements are expected: `...array`.
 
+56. **What is the `rest` operator in JavaScript?**
+    - Allows you to represent an indefinite number of arguments as an array: `function(...args)`.
 
+57. **What is a Symbol in JavaScript?**
+    - A unique and immutable primitive value used as a key for object properties.
 
-Certainly! Here are 50 JavaScript interview questions along with easy-to-understand answers to help you prepare for your interview:
+58. **What is the `Map` object in JavaScript?**
+    - A collection of keyed data items, just like an Object. But a `Map` allows keys of any type.
 
-### Basic JavaScript Questions
+59. **What is the `Set` object in JavaScript?**
+    - A collection of unique values.
 
-1. **What is JavaScript?**
-   - JavaScript is a programming language used to create dynamic and interactive content on websites.
+60. **What is the `WeakMap` object in JavaScript?**
+    - Similar to `Map`, but keys are weakly referenced, meaning they can be garbage-collected.
 
-2. **What are variables in JavaScript?**
-   - Variables are containers for storing data values, declared using `var`, `let`, or `const`.
+61. **What is the `WeakSet` object in JavaScript?**
+    - Similar to `Set`, but values are weakly referenced.
 
-3. **What is the difference between `var`, `let`, and `const`?**
-   - `var` is function-scoped, while `let` and `const` are block-scoped. `const` is used for variables that should not be reassigned.
+62. **What is the `Date` object in JavaScript?**
+    - Represents a single moment in time.
 
-4. **What are JavaScript data types?**
-   - JavaScript has several data types including `Number`, `String`, `Boolean`, `Object`, `Array`, `Function`, `Undefined`, `Null`, and `Symbol`.
+63. **How do you create a new `Date` object in JavaScript?**
+    - Using the `new Date()` constructor.
 
-5. **What are operators in JavaScript?**
-   - Operators are symbols used to perform operations on values. Examples include `+`, `-`, `*`, `/`, and `%`.
+64. **What are `try`, `catch`, `finally` blocks in JavaScript?**
+    - Used for handling exceptions. `try` contains code that may throw an error, `catch` handles the error, `finally` executes code after `try` and `catch`.
 
-### Functions and Scope
+65. **What is strict mode in JavaScript?**
+    - A way to opt in to a restricted variant of JavaScript, by adding `"use strict";` at the beginning of a script or function.
 
-6. **What are functions in JavaScript?**
-   - Functions are reusable blocks of code that perform a specific task. They can be declared using the `function` keyword.
+66. **What is the `eval()` function in JavaScript?**
+    - Evaluates JavaScript code represented as a string.
 
-7. **What is the difference between function declarations and function expressions?**
-   - Function declarations are hoisted, meaning they can be called before they are defined. Function expressions are not hoisted.
+67. **What is a generator function in JavaScript?**
+    - A function that can be paused and resumed, using the `function*` syntax.
 
-8. **What are arrow functions?**
-   - Arrow functions are a shorter syntax for writing functions using `=>`. They do not have their own `this` context.
+68. **What is the `yield` keyword in JavaScript?**
+    - Pauses the execution of a generator function and returns a value.
 
-9. **What is scope in JavaScript?**
-   - Scope determines the accessibility of variables. JavaScript has global scope, function scope, and block scope.
+69. **What is a promise chain in JavaScript?**
+    - A series of `.then()` calls on a promise to handle multiple asynchronous operations.
 
-10. **What is a closure?**
-    - A closure is a function that retains access to its outer scope variables even after the outer function has returned.
+70. **What is `Promise.all()` in JavaScript?**
+    - Takes an array of promises and returns a single promise that resolves when all of the promises resolve.
 
-### Objects and Arrays
+71. **What is `Promise.race()` in JavaScript?**
+    - Takes an array of promises and returns a single promise that resolves as soon as any one of the promises resolves.
 
-11. **What are objects in JavaScript?**
-    - Objects are collections of key-value pairs, where keys are strings (or Symbols) and values can be any type.
+72. **What is `async/await` in JavaScript?**
+    - Syntactic sugar for working with promises, making asynchronous code look more like synchronous code.
 
-12. **What are arrays in JavaScript?**
-    - Arrays are ordered collections of elements, which can be accessed by their index.
+73. **What is the `event loop` in JavaScript?**
+    - A mechanism that allows JavaScript to perform non-blocking operations by offloading operations to the system kernel.
 
-13. **How do you iterate over an array?**
-    - You can iterate over an array using loops like `for`, `forEach`, `map`, `filter`, and `reduce`.
+74. **What are Web APIs in JavaScript?**
+    - APIs provided by the browser that can be used to create powerful web applications, e.g., `fetch`, `localStorage`, `geolocation`.
 
-14. **What is the `this` keyword in JavaScript?**
-    - `this` refers to the object that is currently executing the code. Its value depends on the context in which the function is called.
+75. **What is the `BOM` in JavaScript?**
+    - The Browser Object Model allows JavaScript to interact with the browser beyond the document, e.g., `window`, `navigator`.
 
-15. **What is the difference between `==` and `===`?**
-    - `==` checks for value equality with type coercion, while `===` checks for both value and type equality without coercion.
+76. **What is the `window` object in JavaScript?**
+    - Represents the browser window and provides methods to control the browser, like `alert()`, `setTimeout()`.
 
-### Advanced JavaScript Concepts
+77. **What is the `document` object in JavaScript?**
+    - Represents the HTML document and allows you to interact with and manipulate its structure and content.
 
-16. **What are promises in JavaScript?**
-    - Promises are objects representing the eventual completion or failure of an asynchronous operation.
+78. **What is the `navigator` object in JavaScript?**
+    - Provides information about the browser and the device.
 
-17. **What is async/await?**
-    - `async` and `await` are syntax for writing asynchronous code in a more synchronous-like fashion. `async` declares a function as asynchronous, and `await` pauses the function until a promise is resolved.
+79. **What is the `location` object in JavaScript?**
+    - Provides information about the current URL and methods to manipulate it, e.g., `window.location.href`.
 
-18. **What are prototypes in JavaScript?**
-    - Prototypes are objects from which other objects inherit properties and methods. Every JavaScript object has a prototype.
+80. **What is the `history` object in JavaScript?**
+    - Provides access to the browser's session history, allowing navigation through history.
 
-19. **What is prototypal inheritance?**
-    - Prototypal inheritance is a feature where objects inherit properties and methods from other objects.
+81. **What is the `console` object in JavaScript?**
+    - Provides access to the browser's debugging console, e.g., `console.log()`.
 
-20. **What are higher-order functions?**
-    - Higher-order functions are functions that can take other functions as arguments or return functions as their result.
+82. **What are `web workers` in JavaScript?**
+    - Allow you to run scripts in background threads.
 
-### DOM Manipulation
+83. **What is a `Service Worker` in JavaScript?**
+    - A script that runs in the background, separate from the web page, to enable features like push notifications and background sync.
 
-21. **What is the DOM?**
-    - The DOM (Document Object Model) is an interface that allows scripts to update the content, structure, and style of a document.
+84. **What is the `fetch` API in JavaScript?**
+    - Provides an easy and logical way to fetch resources asynchronously across the network.
 
-22. **How do you select elements in the DOM?**
-    - You can select elements using methods like `getElementById`, `getElementsByClassName`, `getElementsByTagName`, `querySelector`, and `querySelectorAll`.
+85. **What is the `async` keyword in JavaScript?**
+    - Used to declare an asynchronous function that returns a promise.
 
-23. **How do you create and append elements in the DOM?**
-    - You can create elements using `document.createElement` and append them using methods like `appendChild` and `append`.
+86. **What is the `await` keyword in JavaScript?**
+    - Pauses the execution of an async function and waits for the promise to resolve.
 
-24. **What is event delegation?**
-    - Event delegation is a technique where a single event listener is added to a parent element to manage events for multiple child elements.
+87. **What is `CORS` in JavaScript?**
+    - Cross-Origin Resource Sharing is a security feature that restricts web pages from making requests to a different domain than the one that served the web page.
 
-25. **What is the difference between `addEventListener` and inline event handlers?**
-    - `addEventListener` allows you to attach multiple event listeners to an element and offers better control, while inline event handlers are defined directly in HTML.
+88. **What is a `polyfill` in JavaScript?**
+    - A piece of code used to provide modern functionality on older browsers that do not natively support it.
 
-### Event Handling
+89. **What is `ES6` in JavaScript?**
+    - ECMAScript 2015 (ES6) is a major update to JavaScript that includes new features like classes, modules, arrow functions, etc.
 
-26. **What are events in JavaScript?**
-    - Events are actions or occurrences that happen in the browser, like clicks, form submissions, and key presses.
+90. **What is `babel` in JavaScript?**
+    - A JavaScript compiler that converts ES6+ code into backward-compatible JavaScript.
 
-27. **What is the event propagation model?**
-    - Event propagation determines the order in which events are handled, consisting of capturing, target, and bubbling phases.
+91. **What is `webpack` in JavaScript?**
+    - A module bundler that bundles JavaScript files for usage in a browser.
 
-28. **How do you prevent the default action of an event?**
-    - You can prevent the default action of an event using the `event.preventDefault()` method.
+92. **What is `npm` in JavaScript?**
+    - Node Package Manager, used to manage dependencies for JavaScript projects.
 
-29. **What is `event.stopPropagation()`?**
-    - `event.stopPropagation()` stops the event from propagating (bubbling) up or down the DOM tree.
+93. **What is `Node.js` in JavaScript?**
+    - A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing server-side scripting.
 
-30. **What is `event.stopImmediatePropagation()`?**
-    - `event.stopImmediatePropagation()` stops the event from propagating and also prevents any other event listeners from being called.
+94. **What is `Express.js` in JavaScript?**
+    - A minimal and flexible Node.js web application framework.
 
-### Error Handling
+95. **What is a `package.json` file in JavaScript?**
+    - A file that holds various metadata relevant to the project and lists the dependencies.
 
-31. **How do you handle errors in JavaScript?**
-    - Errors can be handled using `try...catch` blocks. The code that may throw an error is placed inside the `try` block, and the error is caught and handled in the `catch` block.
+96. **What is `REST` in JavaScript?**
+    - Representational State Transfer, a standard for creating web services using HTTP.
 
-32. **What is `finally` in a `try...catch` block?**
-    - The `finally` block contains code that will run regardless of whether an error occurred or not.
+97. **What is an `API` in JavaScript?**
+    - Application Programming Interface, a set of functions and procedures for building software and applications.
 
-33. **What is `throw` in JavaScript?**
-    - `throw` is used to create custom errors. When executed, it stops the execution of the function and passes the specified error message to the nearest `catch` block.
+98. **
 
-34. **What is the difference between `undefined` and `null`?**
-    - `undefined` indicates a variable has been declared but not assigned a value, while `null` is an assignment value representing no value.
+What is the `EventEmitter` in Node.js?**
+    - A class that allows you to handle and emit custom events.
 
-35. **What are JavaScript error types?**
-    - Common JavaScript error types include `SyntaxError`, `ReferenceError`, `TypeError`, `RangeError`, and `EvalError`.
+99. **What is `middleware` in Express.js?**
+    - Functions that have access to the request object, response object, and the next middleware function.
 
-### Miscellaneous
+100. **What is `mongoose` in JavaScript?**
+    - An ODM (Object Data Modeling) library for MongoDB and Node.js.
 
-36. **What is `use strict`?**
-    - `"use strict"` is a directive that enables strict mode, which helps catch common coding mistakes and prevents the use of certain unsafe features in JavaScript.
-
-37. **What is the difference between `localStorage` and `sessionStorage`?**
-    - `localStorage` stores data with no expiration date, while `sessionStorage` stores data for the duration of the page session.
-
-38. **What is JSON?**
-    - JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate.
-
-39. **How do you convert a JavaScript object to JSON?**
-    - Use `JSON.stringify()` to convert a JavaScript object to a JSON string.
-
-40. **How do you parse JSON in JavaScript?**
-    - Use `JSON.parse()` to parse a JSON string and convert it to a JavaScript object.
-
-### ES6 and Beyond
-
-41. **What are template literals?**
-    - Template literals are string literals allowing embedded expressions, denoted by backticks (`` ` ``), and can include placeholders `${expression}`.
-
-42. **What are default parameters in functions?**
-    - Default parameters allow you to specify default values for function parameters if no argument is provided.
-
-43. **What is destructuring assignment?**
-    - Destructuring assignment is a syntax that allows you to unpack values from arrays or properties from objects into distinct variables.
-
-44. **What are the spread and rest operators?**
-    - The spread operator (`...`) expands elements of an array or object. The rest operator (`...`) collects all remaining elements into an array.
-
-45. **What is a `Map` in JavaScript?**
-    - `Map` is a collection of keyed data items, just like an Object, but with better performance for frequent additions and removals.
-
-### Asynchronous JavaScript
-
-46. **What is the event loop in JavaScript?**
-    - The event loop is a mechanism that handles asynchronous code execution, allowing non-blocking operations.
-
-47. **What are `setTimeout` and `setInterval`?**
-    - `setTimeout` schedules a function to run after a specified delay, while `setInterval` repeatedly calls a function with a fixed time delay between each call.
-
-48. **What is a `Promise`?**
-    - A `Promise` represents a value that may be available now, or in the future, or never, and handles asynchronous operations.
-
-49. **What are `async` and `await`?**
-    - `async` declares a function as asynchronous, returning a promise. `await` pauses the execution of the async function until the promise is resolved.
-
-50. **What is `fetch` API?**
-    - The `fetch` API provides a modern way to make HTTP requests, returning a promise that resolves to the response object.
-
-These questions and
-
- answers cover a broad range of JavaScript topics and should help you prepare for a front-end developer interview.
-
-
-Sure! Here are 50 React interview questions along with easy-to-understand answers:
-
-### Basic Questions
-
-1. **What is React?**
-   - React is a JavaScript library for building user interfaces, developed by Facebook. It allows developers to create reusable UI components.
-
-2. **What are the major features of React?**
-   - Component-based architecture, Virtual DOM, JSX syntax, Unidirectional data flow, and high performance due to efficient updates.
-
-3. **What is JSX?**
-   - JSX is a syntax extension for JavaScript that looks similar to HTML. It allows you to write HTML structures in JavaScript and place them in the DOM.
-
-4. **How does React differ from other front-end frameworks like Angular or Vue?**
-   - React is a library focused on building UI components, whereas Angular and Vue are full-fledged frameworks. React uses a virtual DOM, whereas Angular uses real DOM.
-
-5. **What is a component in React?**
-   - A component is a reusable piece of UI that can be nested, managed, and handled independently. It can be a class or a function.
-
-6. **Explain the difference between functional and class components.**
-   - Functional components are stateless components defined as functions, while class components are stateful and defined as ES6 classes.
-
-7. **What are props in React?**
-   - Props are short for properties. They are read-only inputs passed from a parent component to a child component to configure the child component.
-
-8. **What is state in React?**
-   - State is a built-in object that stores property values that belong to the component. When the state changes, the component re-renders.
-
-9. **What is the virtual DOM?**
-   - The virtual DOM is a lightweight copy of the real DOM that React keeps in memory. It allows React to update the DOM efficiently by only changing the elements that have changed.
-
-10. **How does React update the DOM?**
-    - React uses a virtual DOM to compare the current and previous states and then applies the minimal number of changes to the real DOM to keep it up-to-date.
-
-### Intermediate Questions
-
-11. **What is a React lifecycle method?**
-    - Lifecycle methods are special methods that get called at different stages of a component's lifecycle, such as when the component mounts, updates, or unmounts.
-
-12. **What is the difference between state and props?**
-    - State is a local data storage that is specific to a component and can change over time, whereas props are inputs passed to a component from its parent and are immutable.
-
-13. **What is a controlled component in React?**
-    - A controlled component is a component where React controls the form data. The form data is handled by the component's state.
-
-14. **What is an uncontrolled component in React?**
-    - An uncontrolled component is a component where the form data is handled by the DOM itself, rather than by React.
-
-15. **How do you handle events in React?**
-    - Events in React are handled using event handlers, which are passed as props to elements. Event handlers are typically written as methods within the component class or as functions in functional components.
-
-16. **What is a higher-order component (HOC)?**
-    - A higher-order component is a function that takes a component and returns a new component, adding additional functionality to the original component.
-
-17. **What is the purpose of the `key` prop in React?**
-    - The `key` prop is used to uniquely identify elements in a list to help React optimize re-rendering by keeping track of which items have changed.
-
-18. **What is Redux?**
-    - Redux is a state management library for JavaScript applications. It is often used with React to manage the application state in a predictable way.
-
-19. **What is the difference between Redux and the Context API?**
-    - Redux is a more complex state management solution that includes middleware, reducers, and actions. The Context API is a simpler built-in way to share state across components without passing props down manually at every level.
-
-20. **What are React hooks?**
-    - React hooks are functions that let you use state and other React features in functional components. Common hooks include `useState`, `useEffect`, and `useContext`.
-
-### Advanced Questions
-
-21. **What is the `useState` hook?**
-    - The `useState` hook is a function that lets you add state to functional components. It returns an array with the current state and a function to update it.
-
-22. **What is the `useEffect` hook?**
-    - The `useEffect` hook is a function that lets you perform side effects in functional components. It runs after the component renders and can optionally clean up after itself.
-
-23. **How do you create a context in React?**
-    - You create a context using `React.createContext()`, which returns a Provider and a Consumer component. The Provider supplies the context value to its descendants, and the Consumer reads the value.
-
-24. **What is React Router?**
-    - React Router is a library for handling routing in React applications. It allows you to define multiple routes in your app and navigate between them.
-
-25. **What is lazy loading in React?**
-    - Lazy loading is a technique for loading components only when they are needed. In React, you can use `React.lazy()` and `Suspense` to lazy load components.
-
-26. **What is the `useContext` hook?**
-    - The `useContext` hook is a function that lets you access the value of a context directly in functional components without using a Consumer.
-
-27. **What is PropTypes in React?**
-    - PropTypes is a library that allows you to specify the types of props that a component should receive, helping catch bugs by ensuring that the props passed to a component are valid.
-
-28. **What is the difference between `componentDidMount` and `componentWillMount`?**
-    - `componentDidMount` is called after the component is mounted and the DOM is available, while `componentWillMount` is called before the component mounts and is often used to set initial state.
-
-29. **What is server-side rendering (SSR) in React?**
-    - SSR is the process of rendering React components on the server and sending the resulting HTML to the client, which improves performance and SEO.
-
-30. **What is code splitting in React?**
-    - Code splitting is a technique for dividing your code into smaller chunks that can be loaded on demand, reducing the initial load time of your application.
-
-### Expert Questions
-
-31. **What is the difference between `React.memo` and `React.PureComponent`?**
-    - `React.memo` is a higher-order component that memoizes functional components, while `React.PureComponent` is a class component that implements `shouldComponentUpdate` with a shallow prop and state comparison.
-
-32. **How do you handle form validation in React?**
-    - Form validation in React can be handled using controlled components, custom validation functions, and libraries like Formik or React Hook Form.
-
-33. **What are render props in React?**
-    - Render props are a technique for sharing code between components using a prop whose value is a function. This function returns a React element.
-
-34. **What is the `useReducer` hook?**
-    - The `useReducer` hook is a function that lets you manage state using a reducer function. It is an alternative to `useState` for more complex state logic.
-
-35. **What is the Context API used for in React?**
-    - The Context API is used for sharing state across multiple components without passing props down manually at every level.
-
-36. **How do you handle errors in React components?**
-    - Errors in React components can be handled using error boundaries, which are components that catch JavaScript errors anywhere in their child component tree.
-
-37. **What is a fragment in React?**
-    - A fragment is a way to group multiple elements without adding an extra node to the DOM. You can use `<React.Fragment>` or the shorthand `<>...</>`.
-
-38. **How do you optimize performance in a React application?**
-    - Performance can be optimized by using memoization, lazy loading, code splitting, avoiding unnecessary re-renders, and using production builds.
-
-39. **What is the difference between `useEffect` and `useLayoutEffect`?**
-    - `useEffect` runs after the render is committed to the screen, while `useLayoutEffect` runs synchronously after all DOM mutations but before the browser paints.
-
-40. **How do you handle asynchronous data fetching in React?**
-    - Asynchronous data fetching can be handled using `useEffect` with async functions, the Fetch API, Axios, or libraries like React Query.
-
-41. **What are portals in React?**
-    - Portals are a way to render children into a DOM node that exists outside the parent component's hierarchy.
-
-42. **What is the `useRef` hook?**
-    - The `useRef` hook is a function that returns a mutable ref object whose `.current` property is initialized to a given value. It can be used to persist values across renders or access DOM elements directly.
-
-43. **What is reconciliation in React?**
-    - Reconciliation is the process by which React updates the DOM to match the virtual DOM, applying the minimal number of changes needed.
-
-44. **How do you implement authentication in a React application?**
-    - Authentication can be implemented using token-based systems like JWT, OAuth, or session cookies, often in combination with state management libraries like Redux.
-
-45. **What is the `useCallback` hook?**
-    - The `useCallback` hook is a function that returns a memoized version of a callback function, which helps prevent unnecessary re-renders by preserving the function identity between renders.
-
-46. **How do you manage side effects in a React application?**
-   
-
- - Side effects can be managed using hooks like `useEffect`, middleware like Redux Thunk or Redux Saga, or libraries like React Query.
-
-47. **What is the `useMemo` hook?**
-    - The `useMemo` hook is a function that returns a memoized value, which helps optimize performance by memoizing expensive calculations so they are only recomputed when dependencies change.
-
-48. **How do you use refs to access DOM elements in React?**
-    - Refs can be created using `React.createRef()` in class components or `useRef()` in functional components, and then attached to DOM elements using the `ref` attribute.
-
-49. **What is `ReactDOM.createPortal` used for?**
-    - `ReactDOM.createPortal` is used to render children into a different part of the DOM that is outside the hierarchy of the parent component.
-
-50. **What is the difference between imperative and declarative programming in React?**
-    - Declarative programming in React involves describing what the UI should look like using components and JSX, while imperative programming involves specifying the steps to change the UI directly.
-
-
-
-    ### Certainly! Here are some common JavaScript problems that you might encounter in an interview, along with solutions:
-
-### 1. Reverse a String
-**Problem:** Write a function to reverse a string.
-
-```javascript
-function reverseString(str) {
-  return str.split('').reverse().join('');
-}
-
-// Example usage:
-console.log(reverseString("hello")); // "olleho"
-```
-
-### 2. Check for Palindrome
-**Problem:** Write a function to check if a given string is a palindrome.
-
-```javascript
-function isPalindrome(str) {
-  const reversedStr = str.split('').reverse().join('');
-  return str === reversedStr;
-}
-
-// Example usage:
-console.log(isPalindrome("racecar")); // true
-console.log(isPalindrome("hello"));   // false
-```
-
-### 3. FizzBuzz
-**Problem:** Write a function that prints numbers from 1 to 100. For multiples of three, print "Fizz" instead of the number, and for multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz".
-
-```javascript
-function fizzBuzz() {
-  for (let i = 1; i <= 100; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
-      console.log("FizzBuzz");
-    } else if (i % 3 === 0) {
-      console.log("Fizz");
-    } else if (i % 5 === 0) {
-      console.log("Buzz");
-    } else {
-      console.log(i);
-    }
-  }
-}
-
-// Example usage:
-fizzBuzz();
-```
-
-### 4. Find the Largest Number in an Array
-**Problem:** Write a function to find the largest number in an array.
-
-```javascript
-function findLargestNumber(arr) {
-  return Math.max(...arr);
-}
-
-// Example usage:
-console.log(findLargestNumber([1, 2, 3, 4, 5])); // 5
-```
-
-### 5. Factorialize a Number
-**Problem:** Write a function to find the factorial of a given number.
-
-```javascript
-function factorialize(num) {
-  if (num === 0 || num === 1) {
-    return 1;
-  }
-  return num * factorialize(num - 1);
-}
-
-// Example usage:
-console.log(factorialize(5)); // 120
-```
-
-### 6. Find the Longest Word in a String
-**Problem:** Write a function to find the longest word in a string.
-
-```javascript
-function findLongestWord(str) {
-  const words = str.split(' ');
-  let longestWord = '';
-
-  for (const word of words) {
-    if (word.length > longestWord.length) {
-      longestWord = word;
-    }
-  }
-
-  return longestWord;
-}
-
-// Example usage:
-console.log(findLongestWord("The quick brown fox jumped over the lazy dog")); // "jumped"
-```
-
-### 7. Remove Duplicates from an Array
-**Problem:** Write a function to remove duplicates from an array.
-
-```javascript
-function removeDuplicates(arr) {
-  return [...new Set(arr)];
-}
-
-// Example usage:
-console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]
-```
-
-### 8. Merge Two Sorted Arrays
-**Problem:** Write a function to merge two sorted arrays into one sorted array.
-
-```javascript
-function mergeSortedArrays(arr1, arr2) {
-  const mergedArray = [];
-  let i = 0;
-  let j = 0;
-
-  while (i < arr1.length && j < arr2.length) {
-    if (arr1[i] < arr2[j]) {
-      mergedArray.push(arr1[i]);
-      i++;
-    } else {
-      mergedArray.push(arr2[j]);
-      j++;
-    }
-  }
-
-  while (i < arr1.length) {
-    mergedArray.push(arr1[i]);
-    i++;
-  }
-
-  while (j < arr2.length) {
-    mergedArray.push(arr2[j]);
-    j++;
-  }
-
-  return mergedArray;
-}
-
-// Example usage:
-console.log(mergeSortedArrays([1, 3, 5], [2, 4, 6])); // [1, 2, 3, 4, 5, 6]
-```
-
-### 9. Sum All Numbers in a Range
-**Problem:** Write a function to sum all numbers in a given range.
-
-```javascript
-function sumAllNumbersInRange(start, end) {
-  let sum = 0;
-  for (let i = start; i <= end; i++) {
-    sum += i;
-  }
-  return sum;
-}
-
-// Example usage:
-console.log(sumAllNumbersInRange(1, 5)); // 15
-```
-
-### 10. Flatten a Nested Array
-**Problem:** Write a function to flatten a nested array.
-
-```javascript
-function flattenArray(arr) {
-  return arr.reduce((flat, toFlatten) => {
-    return flat.concat(Array.isArray(toFlatten) ? flattenArray(toFlatten) : toFlatten);
-  }, []);
-}
-
-// Example usage:
-console.log(flattenArray([1, [2, [3, 4], 5], 6])); // [1, 2, 3, 4, 5, 6]
-```
-
-These problems and solutions cover a range of basic to intermediate concepts in JavaScript and should help you prepare for common interview questions.
+Let me know if you want to add or modify anything in the list.
