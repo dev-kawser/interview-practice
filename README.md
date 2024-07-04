@@ -611,3 +611,309 @@ What is the `EventEmitter` in Node.js?**
     - An ODM (Object Data Modeling) library for MongoDB and Node.js.
 
 Let me know if you want to add or modify anything in the list.
+
+Sure! Here are 100 questions for React:
+
+1. **What is React?**
+   - A JavaScript library for building user interfaces, primarily for single-page applications.
+
+2. **Who developed React?**
+   - Facebook.
+
+3. **What is JSX?**
+   - JavaScript XML, a syntax extension that allows writing HTML within JavaScript.
+
+4. **Why do we use JSX?**
+   - It makes writing React components easier and more readable by allowing HTML-like syntax in JavaScript.
+
+5. **What is a component in React?**
+   - A building block of a React application, which can be either a class component or a functional component.
+
+6. **What is the difference between a class component and a functional component?**
+   - Class components use ES6 class syntax and can hold and manage state, while functional components are plain JavaScript functions that can use hooks to manage state and lifecycle.
+
+7. **What is a state in React?**
+   - An object that holds data or information about the component, which can change over time and impact the component's rendering.
+
+8. **How do you set state in a React component?**
+   - Using the `setState` method in class components or the `useState` hook in functional components.
+
+9. **What are props in React?**
+   - Short for properties, they are read-only attributes passed from parent to child components.
+
+10. **How do you pass props to a component?**
+    - By adding attributes to the component's JSX tag, e.g., `<Component propName={propValue} />`.
+
+11. **What is a lifecycle method in React?**
+    - Special methods in class components that run at particular times in a component's life, like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.
+
+12. **What is the `componentDidMount` lifecycle method?**
+    - A method that runs after a component is rendered for the first time.
+
+13. **What is the `componentDidUpdate` lifecycle method?**
+    - A method that runs after a component has been re-rendered due to changes in props or state.
+
+14. **What is the `componentWillUnmount` lifecycle method?**
+    - A method that runs just before a component is removed from the DOM.
+
+15. **What are hooks in React?**
+    - Functions that let you use state and other React features in functional components.
+
+16. **What is the `useState` hook?**
+    - A hook that allows you to add state to functional components.
+
+17. **What is the `useEffect` hook?**
+    - A hook that lets you perform side effects in functional components, such as data fetching or subscribing to events.
+
+18. **What is a higher-order component (HOC)?**
+    - A function that takes a component and returns a new component, adding extra behavior or data.
+
+19. **What is the virtual DOM?**
+    - An in-memory representation of the real DOM that React uses to efficiently update the UI.
+
+20. **How does React use the virtual DOM?**
+    - React compares the virtual DOM with the real DOM and updates only the parts that have changed.
+
+21. **What is the `key` prop in React?**
+    - A special string attribute used to identify elements in a list, helping React optimize rendering.
+
+22. **Why is it important to use unique keys in React lists?**
+    - To ensure that React can correctly identify and update elements when the list changes.
+
+23. **What is a controlled component in React?**
+    - An input element whose value is controlled by React state.
+
+24. **What is an uncontrolled component in React?**
+    - An input element that maintains its own state, typically accessed using refs.
+
+25. **What is a ref in React?**
+    - A way to directly access and manipulate DOM elements created in the render method.
+
+26. **How do you create a ref in React?**
+    - Using the `React.createRef` method in class components or the `useRef` hook in functional components.
+
+27. **What is context in React?**
+    - A way to pass data through the component tree without having to pass props down manually at every level.
+
+28. **How do you create a context in React?**
+    - Using `React.createContext`.
+
+29. **How do you use a context in React?**
+    - By wrapping components in a `Context.Provider` and accessing the context value with `useContext` or `Context.Consumer`.
+
+30. **What is a React fragment?**
+    - A way to group multiple elements without adding extra nodes to the DOM, using `<React.Fragment>` or the shorthand `<>`.
+
+31. **What is the `useReducer` hook in React?**
+    - A hook that manages complex state logic using a reducer function.
+
+32. **What is the `useMemo` hook in React?**
+    - A hook that memoizes a value, recomputing it only when its dependencies change, to optimize performance.
+
+33. **What is the `useCallback` hook in React?**
+    - A hook that memoizes a callback function, preventing unnecessary re-creations on re-renders.
+
+34. **What is the `useRef` hook in React?**
+    - A hook that returns a mutable ref object whose `.current` property can hold any value.
+
+35. **What is the `useContext` hook in React?**
+    - A hook that lets you access the value of a context directly.
+
+36. **What is React Router?**
+    - A library for routing in React applications, enabling navigation between different components.
+
+37. **How do you define routes in React Router?**
+    - Using the `Route` component inside a `Switch` component from `react-router-dom`.
+
+38. **What is the `Link` component in React Router?**
+    - A component that renders a navigational link, allowing navigation without full page reloads.
+
+39. **What is the `useHistory` hook in React Router?**
+    - A hook that gives you access to the history instance, enabling navigation programmatically.
+
+40. **What is the `useParams` hook in React Router?**
+    - A hook that returns an object of key/value pairs of URL parameters.
+
+41. **What is the `useLocation` hook in React Router?**
+    - A hook that returns the current location object, which represents where the app is now.
+
+42. **What is the `useRouteMatch` hook in React Router?**
+    - A hook that matches the current URL against the defined routes and returns match information.
+
+43. **What is the `NavLink` component in React Router?**
+    - A component similar to `Link` but with added styling capabilities based on the active route.
+
+44. **What is server-side rendering (SSR) in React?**
+    - The process of rendering React components on the server and sending the HTML to the client.
+
+45. **What is static site generation (SSG) in React?**
+    - A method of generating static HTML pages at build time, which can be served to the client.
+
+46. **What is Next.js?**
+    - A React framework that enables SSR and SSG, as well as other features like routing and API routes.
+
+47. **How do you fetch data in a React component?**
+    - Using `fetch`, `axios`, or other libraries, often inside the `useEffect` hook or lifecycle methods.
+
+48. **What is PropTypes in React?**
+    - A library for type-checking props in React components.
+
+49. **How do you use PropTypes in a React component?**
+    - By defining a `propTypes` property on the component and specifying the types of each prop.
+
+50. **What is the `defaultProps` property in React?**
+    - A property used to set default values for props in a component.
+
+51. **What is React.StrictMode?**
+    - A wrapper component that activates additional checks and warnings for its descendants.
+
+52. **What is the `useLayoutEffect` hook in React?**
+    - Similar to `useEffect`, but fires synchronously after all DOM mutations, useful for reading layout from the DOM.
+
+53. **What is the `useImperativeHandle` hook in React?**
+    - A hook that customizes the instance value exposed to parent components when using `ref`.
+
+54. **What is React.memo?**
+    - A higher-order component that memoizes the result, preventing re-renders when props haven't changed.
+
+55. **What is the `lazy` function in React?**
+    - A function that allows you to load components lazily through code-splitting.
+
+56. **What is the `Suspense` component in React?**
+    - A component that wraps lazy-loaded components and displays a fallback until the component has loaded.
+
+57. **What are error boundaries in React?**
+    - Components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI.
+
+58. **How do you create an error boundary in React?**
+    - By creating a class component that implements the `componentDidCatch` and `getDerivedStateFromError` lifecycle methods.
+
+59. **What is the `Profiler` API in React?**
+    - An API that measures the performance of a React application, identifying parts of the application that are slow.
+
+60. **What is the `useDebugValue` hook in React?**
+    - A hook that lets you display a label in React DevTools for custom hooks.
+
+61. **What are synthetic events in React?**
+    - Cross-browser wrapper around the browser's native event system, providing consistent behavior across different browsers.
+
+62. **How do you handle events in React?**
+    - By passing a function to the event handler attribute, e.g., `onClick`, `onChange`.
+
+63. **What
+
+ is a controlled form in React?**
+    - A form where the input values are controlled by React state.
+
+64. **What is an uncontrolled form in React?**
+    - A form where the input values are controlled by the DOM, accessed using refs.
+
+65. **What is the `forwardRef` function in React?**
+    - A function that lets you forward a ref through a component to one of its child components.
+
+66. **What is `ReactDOM.render`?**
+    - A method that renders a React component into the DOM.
+
+67. **What is the `hydrate` method in React?**
+    - A method used for hydrating a server-rendered application with React on the client side.
+
+68. **What is a portal in React?**
+    - A way to render children into a DOM node outside of the parent component's DOM hierarchy.
+
+69. **What is reconciliation in React?**
+    - The process by which React updates the DOM by comparing the current state to the previous state.
+
+70. **What is the `dangerouslySetInnerHTML` attribute in React?**
+    - An attribute that allows you to set HTML directly, which can pose a security risk if not used carefully.
+
+71. **What are fragments in React?**
+    - Short syntax (`<>...</>`) for grouping multiple children without adding extra nodes to the DOM.
+
+72. **What is context API in React?**
+    - A way to pass data through the component tree without passing props down manually at every level.
+
+73. **What is prop drilling in React?**
+    - The process of passing props through multiple layers of components.
+
+74. **What is the `React.Children` utility?**
+    - A utility that provides methods for dealing with this.props.children.
+
+75. **What is shallow rendering in React?**
+    - A way to render a component without rendering its children, often used in testing.
+
+76. **What is the difference between `useEffect` and `useLayoutEffect`?**
+    - `useEffect` runs after the paint, while `useLayoutEffect` runs before the paint.
+
+77. **What is `ReactDOM.createPortal`?**
+    - A method that creates a portal to render children into a different part of the DOM.
+
+78. **What are controlled and uncontrolled components?**
+    - Controlled components are managed by React state, while uncontrolled components manage their own state internally.
+
+79. **What is the `useHistory` hook used for?**
+    - To access and manipulate the browser's history object for navigation purposes.
+
+80. **What is React's `PureComponent`?**
+    - A component that performs a shallow comparison of props and state to determine if a re-render is necessary.
+
+81. **How do you optimize performance in a React application?**
+    - Using techniques like memoization, code splitting, lazy loading, and avoiding unnecessary re-renders.
+
+82. **What is the `defaultProps` static property?**
+    - A way to define default values for a component's props.
+
+83. **What is server-side rendering (SSR)?**
+    - The process of rendering components on the server and sending the HTML to the client.
+
+84. **What is the `hydrate` method?**
+    - A method to hydrate a server-rendered app with React on the client side.
+
+85. **What is the `shouldComponentUpdate` lifecycle method?**
+    - A method that determines whether a component should re-render based on changes in props or state.
+
+86. **What is the `getSnapshotBeforeUpdate` lifecycle method?**
+    - A method that captures information from the DOM before it changes, useful for preserving scroll positions.
+
+87. **What is `PureComponent` in React?**
+    - A base class for React components that implements a shallow comparison for props and state to reduce re-renders.
+
+88. **What is lazy loading in React?**
+    - A technique to load components only when they are needed, improving the initial load time.
+
+89. **What is a higher-order component (HOC)?**
+    - A function that takes a component and returns a new component with additional props or behavior.
+
+90. **What is the `useImperativeHandle` hook?**
+    - A hook that customizes the instance value exposed to parent components when using `ref`.
+
+91. **What is a custom hook?**
+    - A function that starts with "use" and can call other hooks, enabling reusable stateful logic.
+
+92. **What is the `useReducer` hook?**
+    - A hook that manages complex state logic with a reducer function.
+
+93. **What is the `useMemo` hook?**
+    - A hook that memoizes a value to avoid expensive calculations on every render.
+
+94. **What is the `useCallback` hook?**
+    - A hook that memoizes a callback function to avoid re-creating it on every render.
+
+95. **What is the `useRef` hook?**
+    - A hook that returns a mutable ref object to persist values across renders.
+
+96. **What is the `useContext` hook?**
+    - A hook that accesses the value of a context directly.
+
+97. **What is PropTypes?**
+    - A library for type-checking props in React components.
+
+98. **What is React.StrictMode?**
+    - A tool to highlight potential problems in an application, such as deprecated lifecycle methods and side effects.
+
+99. **What is React's synthetic event system?**
+    - A cross-browser wrapper around the browser's native event system.
+
+100. **What are React portals?**
+    - A way to render children into a different part of the DOM outside of the parent component hierarchy.
+
+These questions cover a range of topics in React, from basic concepts to advanced features. Let me know if you need any further details or explanations on any of these topics!
